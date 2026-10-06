@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MARS ROBOT EXPLORERS</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body><script>window.location.replace("robot.html?id=1");</script>
+<header class="topbar">
+  <div class="brand"><span class="mars-dot"></span><div><b>대덕초등학교 로봇과학</b><small>나만의 화성 탐사 로봇</small></div></div>
+  
+  <a class="admin-link" href="admin.html">🔐 관리자</a>
+</header>
+
+<main>
+<section class="hero-home">
+  <div class="hero-copy">
+    <span>MISSION CONTROL</span>
+    <h1>우리들의<br>화성 탐사 로봇</h1>
+    <p>프로보 테크닉으로 만든 로봇과<br>학생들의 탐사 기록을 만나보세요.</p>
+    <a class="orange-btn" href="#robots">🚀 탐사 로봇 만나기</a>
+  </div>
+  <div class="hero-planet"><div class="planet">🔴</div><div class="rover-symbol">🤖</div><div class="orbit"></div></div>
+  <div class="hero-note"><b>👩‍🚀 MARS MISSION</b><br>학생들이 직접 설계하고<br>만든 탐사 로봇의 기록입니다.</div>
+</section>
+
+<section class="intro-cards">
+ <article><h3>🤖 로봇을 만나보세요</h3><p>QR을 스캔하면 각 학생의 로봇 연구소 페이지가 열립니다.</p></article>
+ <article><h3>🔧 제작 과정을 살펴보세요</h3><p>아이디어부터 조립, 테스트, 완성까지 기록합니다.</p></article>
+ <article><h3>🎥 실제 움직임을 확인하세요</h3><p>전시장에서 만질 수 없는 로봇은 영상으로 만나볼 수 있습니다.</p></article>
+</section>
+
+<section id="robots" class="section">
+ <div class="section-head"><span>ROBOT LAB</span><h2>탐사 로봇 만나기</h2><p>로봇을 선택하면 한 페이지에서 모든 탐사 기록을 볼 수 있어요.</p></div>
+ <div id="robotGrid" class="robot-grid"></div>
+</section>
+
+<section id="map" class="section">
+ <div class="section-head"><span>MISSION MAP</span><h2>화성 탐사 지도</h2></div>
+ <div id="missionMap" class="mission-map"><div class="map-title">🔴 MARS EXPLORATION ZONE</div><div id="pins"></div></div>
+</section>
+
+<section id="guide" class="guide"><h2>📱 전시 관람 방법</h2><div><b>1</b> 로봇 옆 QR 스캔 → <b>2</b> 탐사 기록 확인 → <b>3</b> 제작 과정과 구동 영상 보기</div></section>
+</main>
+<footer><b>🔴 MARS ROBOT EXPLORERS</b><span>작은 아이디어가 큰 세상을 만듭니다.</span></footer>
+<script src="media.js"></script><script src="app.js"></script>
+</body></html>
